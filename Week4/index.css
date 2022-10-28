@@ -1,0 +1,109 @@
+body{
+    background: white;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.container1{
+    display: flex;
+    box-sizing: border-box;
+    max-width: 900px;
+    flex-direction: row;
+    
+
+}
+h2{
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 34px;
+    font-weight: 700;
+}
+p{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    
+}
+.sedans{
+    border-radius: 12px 0 0 12px;
+    padding: 50px;
+    background: hsl(31, 77%, 52%);
+    color: white;       
+}
+.suvs{
+    padding: 50px;
+    background: hsl(184, 100%, 22%);
+    color: white;
+  
+
+    
+}
+.luxury{
+    border-radius:0 12px 12px 0;
+    padding: 50px;
+    background: hsl(179, 100%, 13%);
+    color: white;  
+}
+.button{
+    border:none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin-top: 150px;
+    cursor: pointer;
+    
+}
+.sedans .button{
+    color:hsl(31, 77%, 52%);
+}
+.sedans .button:hover{
+    background:hsl(31, 77%, 52%);
+    color: white;
+    border:1px solid white;
+}
+.suvs .button{
+    color:hsl(184, 100%, 22%);
+}
+.suvs .button:hover{
+    background:hsl(184, 100%, 22%);
+    color: white;
+    border:1px solid white;
+}
+.luxry .button{
+    color:hsl(179, 100%, 13%);
+}
+.luxury .button:hover{
+    background:hsl(179, 100%, 13%);
+    color: white;
+    border:1px solid white;
+}
+.button1{
+    background:rgb(0, 105, 112);
+    color: white;
+	float: right;
+    border:none;
+    border-radius: 25px;
+    margin: 30px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+    body{
+        overflow: visible;
+        }
+	.container1 {
+		flex-direction: column;
+    
+	}
+    .sedans{
+        border-radius: 12px 12px 0 0;
+    }
+    .luxury{
+        border-radius: 0 0 12px 12px;
+    }
+	.button1 {
+        margin: 30px;
+        padding: 15px 30px;
+	}
+}

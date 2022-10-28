@@ -1,0 +1,55 @@
+body {
+    background-color: #3b404e;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 20px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    width: 600px;
+    height: 500px;
+    gap: 10px;
+
+}
+.item1{
+    background-color: rgb(223, 57, 15);
+    grid-column: span 8;
+    grid-row: span 2;
+    padding: 30px;
+ 
+}
+.item2{
+    background-color: rgb(226, 161, 19);
+    grid-column: span 4;
+    grid-row: span 2;
+    padding: 30px;
+}
+.item3{
+    background-color: rgb(10, 180, 10);
+    grid-column: span 6;
+    grid-row: span 2;
+    padding: 30px;
+}
+.item4{
+    background-color: rgb(40, 134, 211);
+    grid-column: span 6;
+    padding: 30px;
+}
+.item5{
+    background-color:rgb(40, 134, 211);
+    grid-column: 7 /13;
+    padding: 30px;
+}
+.button1{
+    background:rgb(0, 105, 112);
+    color: white;
+	float: right;
+    border:none;
+    border-radius: 25px;
+    margin: 30px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font: 1em sans-serif;
+}
