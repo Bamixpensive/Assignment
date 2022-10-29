@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+}
+header{
+    margin: 0;
+}
+h1{
+    background-color: green;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 35px;
+    padding: 40px;
+    /* add a fixed po
+    sition to seun dev.*/
+    
+}
+h1:hover{
+    background-color:white;
+    width:center;
+    color: green;
+ 
+}
+
+a:link, a:visited {
+
+color: green;
+padding: 14px 25px;
+box-shadow:  1px 1px 2px 2px green;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+
+}
+
+a:hover, a:active {
+background-color:rgb(53, 141, 53);
+color: white;
+font-size: 10px;
+}
+nav {
+    text-align: center;    
+}
+#welcome{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    
+}
+img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 50%;
+}
+h2{
+    text-align: center;
+
+    color: green;
+}
+#aboutme{
+    background: green;
+    color: white;
+    padding: 5%;
+}
+#aboutme h2{
+    color: white;
+    font-size: 30px; 
+}
+#aboutme p{
+    font-size: 20px;
+}
+.othersaboutme{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    font-weight: 600;
+    font-size: 30px;
+}
+#projects h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+#projects a{
+    width: auto;
+    padding: 20px;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+    color: green;
+    padding: 5%;
+    font-size: 20px;
+}
+#services{
+    background: green;
+    color: white;
+    padding: 5%;
+}
+#services h2{
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
+#services div{
+    display: flex;
+    justify-content: center;
+    
+    padding: 5%;
+    font-size: 20px;
+}
+footer{
+    margin-top: 40px;
+    padding: 2px;
+    color: green;
+    background-color: white;
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+    background: white;
+    color: green;
+}
+  .fa-linkedin {
+    background: white;
+    color: green;
+}
+.fa-instagram {
+    background: white;
+    color: green;
+} 

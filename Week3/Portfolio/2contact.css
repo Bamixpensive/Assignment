@@ -1,0 +1,14 @@
+<div class="wrapper">
+<form action="">    
+  <label for="name">Name</label>
+  <input type="text" name="name" placeholder="Your name" required>
+  
+  <label for="email">Email</label>
+  <input type="email" name="email" placeholder="Your Email" required>
+  
+  <label for="name">Message</label>
+  <textarea type="text" name="message" placeholder="Your message" id="mess" rows="5" required></textarea>
+
+  <input type="submit" value="Leave me a message 👍" id="submit">    
+</form>    
+</div>

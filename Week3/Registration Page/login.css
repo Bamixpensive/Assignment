@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+h3 {
+    text-align: center;
+    color: green;
+
+}
+
+input {
+    width: 100%;
+    background-color:white;
+    color: green;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(26, 131, 61);
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+}
+
+input[type=submit] 
+    {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  div {
+    background-color: white;
+    width: 300px;
+    border: 10px solid green;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+    label{
+        color: green;
+ }
+p, p a{
+        color: green;
+}
+
